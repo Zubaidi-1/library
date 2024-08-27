@@ -1,0 +1,29 @@
+.heroContainer {
+  height: 100vh;
+  background-color: #ab947e;
+  color: #fefae0;
+  display: flex;
+  gap: 20rem;
+  align-items: center;
+}
+
+.divContainer {
+  margin-left: 10rem;
+  font-size: 3rem;
+  width: 40%;
+}
+
+.exploreButton {
+  background-color: #593d3b;
+  padding: 2rem;
+  color: #fefae0;
+  border: none;
+  border-radius: 6%;
+  font-size: 1rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

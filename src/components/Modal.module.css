@@ -1,0 +1,64 @@
+.modalBackground {
+  position: fixed; /* Fix the modal to the viewport */
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Darken the background */
+  z-index: 1000; /* High z-index to ensure it overlays all other content */
+  overflow: hidden;
+}
+
+.desContainer {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 50%;
+  background-color: #ede0d4;
+  padding: 2rem;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.description {
+  width: 60%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.text {
+  margin-left: 2rem;
+}
+
+img {
+  height: 18rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+  width: 100%;
+}
+
+.close {
+  background-color: #9c6644;
+  font-size: 1.3rem;
+  border: none;
+  padding: 5px;
+  border-radius: 10%;
+  color: #ede0d4;
+  position: absolute;
+  right: 5rem;
+}
+
+.buyNow {
+  text-decoration: none;
+  color: #9c6644;
+}
